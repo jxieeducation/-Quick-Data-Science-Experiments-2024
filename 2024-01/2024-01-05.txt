@@ -1,0 +1,31 @@
+## https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers/blob/main/Deep%20Learning%20Questions%20%26%20Answers%20for%20Data%20Scientists.md#q1-what-are-autoencoders-explain-the-different-layers-of-autoencoders-and-mention-three-practical-usages-of-them
+
+Autoencoders are one of the deep learning types used for unsupervised learning. There are key layers of autoencoders, which are the input layer, encoder, bottleneck hidden layer, decoder, and output.
+
+Autoencoders have a wide variety of usage in the real world. The following are some of the popular ones:
+
+Transformers and Big Bird (Autoencoders is one of these components in both algorithms): Text Summarizer, Text Generator
+Image compression
+Nonlinear version of PCA
+
+
+## https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0?gi=a3795788c937
+
+Attention is all you need:
+* Input embeddings + positional encoders
+* Continuous encoder input representation (using Multi-headed attention module)
+* Multi-headed attention module: Query + Key + Value
+	* query dot key --> score matrix (e.g. 4 words --> 4x4 matrix on how much attention to put) --> softmax --> 
+	* output: how each word should attend to all other words
+	* multihead --> multiple Ns 
+* multiheaded attention is added to the original input (called residual connection)
+
+
+
+
+
+
+
+
+
+
