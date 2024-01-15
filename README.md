@@ -2,7 +2,7 @@
 
 ### Evergreen
 * https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers
-
+* https://www.youtube.com/@statquest/videos
 
 ### TODOs:
 * Bleu Score (Bleu Score and Word Error Rate are two essential metrics for NLP models)
