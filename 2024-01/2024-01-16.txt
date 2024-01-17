@@ -1,0 +1,26 @@
+2024-01-16
+
+What are the different approaches to implementing recommendation systems?
+* content-based filtering --> based on similarity factors and domain knowledge
+* collaborative-based filering --> focuses on the interactions of users and items
+* hybrid filtering --> 2 stages: 1. candidate generation 2. re-ranking
+
+
+What are the evaluation metrics that can be used for multi-label classification?
+* multi-label: e.g. a single item can be in multiple categories, such as a person can be both female and drives toyota
+* one approach is to do multiple 1 vs rest 
+* Hamming Loss : https://stats.stackexchange.com/questions/583942/using-hamming-loss-for-multi-label-classification-with-imbalaned-class-and-many
+* Macro-F1, Micro-F1: Macro-F1 and Micro-F1 are two types of F1-score metrics that take into account the label imbalance in the dataset. Macro-F1 calculates the F1-score for each label and then averages them, while Micro-F1 calculates the overall F1-score by aggregating the true positive, false positive, and false negative counts across all labels.
+
+
+What is the difference between concept and data drift and how to overcome each of them?
+* Concept drift refers to changes in the underlying relationships between the input data and the target variable over time. This means that the distribution of the data that the model was trained on no longer matches the distribution of the data it is being tested on. For example, a spam filter model that was trained on emails from several years ago may not be as effective at identifying spam emails from today because the language and tactics used in spam emails may have changed.
+* Data drift, on the other hand, refers to changes in the input data itself over time. This means that the values of the input feature that the model was trained on no longer match the values of the input features in the data it is being tested on. For example, a model that was trained on data from a particular geographical region may not be as effective at predicting outcomes for data from a different region.
+
+
+https://machinelearningmastery.com/probabilistic-model-selection-measures/
+* AIC
+* BIC 
+
+
+
