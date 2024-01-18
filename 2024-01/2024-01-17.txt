@@ -1,0 +1,31 @@
+https://huyenchip.com/machine-learning-systems-design/design-a-machine-learning-system.html
+
+4 components of project: 
+* project setup
+* data pipeline
+* modeling (selecting, training, and debugging your model)
+* serving (testing, deploying, maintaining).
+
+Project setup:
+* goals
+* user experience: when and how predictions are used
+* performance constraints: how fast / how good / precision or recall / whats more costly: false postiive or false negative
+* evaluation: during inference, eval can be inferred from user reaction / during training, maybe a loss function
+
+Data pipeline:
+
+
+Start simple and gradually add more components
+
+Start with the simplest model and then slowly add more components to see if it helps or hurts the performance. For example, if you want to build a recurrent neural network (RNN), start with just one level of RNN cell before stacking multiple together, or adding more regularization. If you want to use a BERT-like model (Devlin et al., 2018) which uses both masked language model (MLM) and next sentence prediction loss (NSP), you might want to use only the MLM loss before adding NSP loss.
+
+Currently, many people start out by cloning an open-source implementation of a state-of-the-art model and plugging in their own data. On the off-chance that it works, it's great. But if it doesn't, it's very hard to debug the system because the problem could have been caused by any of the many components in the model.
+
+Overfit a single batch
+
+After you have a simple implementation of your model, try to overfit a small amount of training data and run evaluation on the same data to make sure that it gets to the smallest possible loss. If it's for image recognition, overfit on 10 images and see if you can get to the accuracy to be 100%, or if it's for machine translation, overfit on 100 sentence pairs and see if you can get to the BLEU score of near 100. If it can't overfit a small amount of data, there's something wrong with your implementation.
+
+Set a random seed
+
+There are so many factors that contribute to the randomness of your model: weight initialization, dropout, data shuffling, etc. Randomness makes it hard to compare results across different experiments -- you have no idea if the change in performance is due to a change in the model or a different random seed. Setting a random seed ensures consistency between different runs. It also allows you to reproduce errors and other people to reproduce your results.
+
