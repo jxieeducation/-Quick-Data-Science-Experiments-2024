@@ -1,0 +1,31 @@
+Youtube video: https://www.youtube.com/watch?v=1lfktgZ9Eeo&ab_channel=HelloInterview-TechInterviewPreparation
+
+
+Top-K problem: 
+1. Functional Requirements 
+	* write it down - get on the same page
+	* what is top k? 100, 10000, 10000000?
+	* what is the granularity? e.g. sliding window, or arbitrary
+
+2. Core Entities
+	* view
+	* video 
+	* window: minute / hour / ... / year
+
+3. API
+	* input: video id
+	* GET /view/video?k={k}&window={window}
+	* [ {video_id, views} ]
+
+Mistakes:
+* solve incrementally --> do working soln to more optimal
+
+
+4. High level design
+	* client - top k service - view stream (kafka)
+	* 
+
+
+
+
+
