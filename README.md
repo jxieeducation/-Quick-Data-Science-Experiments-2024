@@ -5,7 +5,6 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
-* Bleu Score (Bleu Score and Word Error Rate are two essential metrics for NLP models)
-* https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853
-
+* CLIP video explained - https://www.youtube.com/watch?v=T9XSU0pKX2E
+* https://www.sh-reya.com/blog/ai-engineering-flywheel/#1-evaluation-defining-success-metrics
 
