@@ -10,3 +10,4 @@
 * https://docs.ray.io/en/latest/ray-overview/getting-started.html#ray-core-quickstart
 * https://medium.com/@API4AI/aiohttp-vs-requests-comparing-python-http-libraries-b17ef3560559
 * https://superset.apache.org/docs/quickstart
+* dynamo db deep dive: https://www.youtube.com/watch?v=TtrmHQCGbb0
