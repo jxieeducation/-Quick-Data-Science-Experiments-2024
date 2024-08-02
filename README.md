@@ -5,6 +5,7 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
+* try fast gradient sign attack collab - https://colab.research.google.com/drive/1QAXT__OhLfcjosZ5dhdAwCSV8oENSDJp?usp=sharing
 * https://medium.com/@hsinhungw/understanding-byte-pair-encoding-fd196ebfe93f
 * CLIP video explained - https://www.youtube.com/watch?v=T9XSU0pKX2E
 * https://www.sh-reya.com/blog/ai-engineering-flywheel/#1-evaluation-defining-success-metrics
