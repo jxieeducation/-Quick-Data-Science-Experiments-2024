@@ -5,7 +5,6 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
-* read sentence piece tokenizer (XLM-RoBerta tokenizer) https://medium.com/@lars.chr.wiik/how-modern-tokenization-works-d56013a78f1e
 * try fast gradient sign attack collab - https://colab.research.google.com/drive/1QAXT__OhLfcjosZ5dhdAwCSV8oENSDJp?usp=sharing
 * https://medium.com/@hsinhungw/understanding-byte-pair-encoding-fd196ebfe93f
 * CLIP video explained - https://www.youtube.com/watch?v=T9XSU0pKX2E
@@ -15,3 +14,4 @@
 * https://superset.apache.org/docs/quickstart
 * dynamo db deep dive: https://www.youtube.com/watch?v=TtrmHQCGbb0
 * technique for data augmentation - https://aclanthology.org/W18-2703.pdf
+* try tiktoken openai's tokenizer on byte-pair encoding https://github.com/openai/tiktoken
