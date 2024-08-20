@@ -5,7 +5,6 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
-* pydantic for LLM response validation
 * SHAP scores
 
 * try fast gradient sign attack collab - https://colab.research.google.com/drive/1QAXT__OhLfcjosZ5dhdAwCSV8oENSDJp?usp=sharing
