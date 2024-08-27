@@ -5,6 +5,7 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
+* try DSPy https://dspy-docs.vercel.app/docs/quick-start/minimal-example
 * SHAP scores
 
 * try fast gradient sign attack collab - https://colab.research.google.com/drive/1QAXT__OhLfcjosZ5dhdAwCSV8oENSDJp?usp=sharing
