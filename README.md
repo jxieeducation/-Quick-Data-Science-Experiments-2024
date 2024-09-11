@@ -5,6 +5,7 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
+* https://github.com/google-research/retvec
 * try DSPy https://dspy-docs.vercel.app/docs/quick-start/minimal-example
 * SHAP scores
 
