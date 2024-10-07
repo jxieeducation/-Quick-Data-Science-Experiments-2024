@@ -5,7 +5,7 @@
 * https://www.youtube.com/@statquest/videos
 
 ### TODOs:
-* LLM routers - https://github.com/lm-sys/routellm
+* do ch 6, 7 https://github.com/rasbt/LLMs-from-scratch/tree/main/ch06/01_main-chapter-code
 * https://github.com/google-research/retvec
 * try DSPy https://dspy-docs.vercel.app/docs/quick-start/minimal-example
 * SHAP scores
